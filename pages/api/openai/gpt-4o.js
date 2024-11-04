@@ -5,6 +5,7 @@ const openai = new OpenAI({
 });
 
 export default async function handler(req, res) {
+  
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-4o", // Ensure that the correct model name is used.
