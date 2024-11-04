@@ -8,8 +8,8 @@ export default function MouseMoveVisual() {
   return (
     <S.Container>
       <S.KaonashiImage
-        src="/assets/id412/w1/mouse-move/1.png"
-        alt="Kaonashi"
+        src="/assets/id412/w1/mouse-move/7.png"
+        alt="Sukidoki"
         style={{
           left: `${mousePos.x * 100}%`,
           top: `${mousePos.y * 100}%`,
